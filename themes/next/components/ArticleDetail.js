@@ -71,9 +71,6 @@ export default function ArticleDetail(props) {
 
           </div>
 
-          <div className='mr-2'>
-            <i className='far fa-clock mr-2' />{locale.COMMON.LAST_EDITED_TIME} {post.lastEditedTime}
-          </div>
 
           <div className='flex flex-nowrap whitespace-nowrap items-center font-light text-md'>
             <WordCount />
